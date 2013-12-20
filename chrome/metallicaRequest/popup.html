@@ -1,0 +1,104 @@
+
+<!doctype html>
+<html>
+  <head>
+    <title>Getting Started Extension's Popup</title>
+    <meta charset="utf-8">
+    <style>
+      body {
+        min-width: 357px;
+       
+        font-family: "adelle-sans",sans-serif;
+        background: black;
+        color:white;
+        padding: 4px;
+
+      }
+
+      #header img {
+        width: 357px;
+        height: 90px;
+      }
+      #header{
+        font-family: Verdana;
+        color: #808080;
+
+      }
+
+      #header h2{
+        margin-top: 4px;
+      }
+
+      #list-songs{
+        margin-left: 5px;
+        margin-bottom: 8px;
+      }
+      .single-song{
+        font-weight: bold;
+        margin-bottom: 4px;
+      }
+
+      .votes{
+        float: right;
+        color: #C1BAF1;
+      }
+
+      #loading{
+        display: none;
+      }
+
+      #wrap-select{
+        margin-top: 8px;
+        margin-bottom: 10px
+      }
+    </style>
+
+    <div id="wrapper">
+      <div id="header">
+        <img src="metallica_logo.png">
+        <h2>By request</h2>
+      </div>
+      
+      <hr>
+      
+      <div id="wrap-select">
+
+        <select id="select-country">
+          <option>Seleccion una fecha</option>
+          <option value="70">Bogotá, Colombia - 16/3/2014</option>
+          <option value="71">Quito, Ecuador - 18/3/2014</option>
+          <option value="72" >Lima, Peru - 20/3/2014</option>
+          <option value="66" >Sao Pablo, Brazil - 22/3/2014</option>
+          <option value="73" >Asunción, Paraguay - 24/3/2014</option>
+          <option value="67" >Santiago, Chile - 27/3/2014</option>
+          <option value="68" >Buenos Aires, Argentina - 29/3/2014</option>
+          <option value="42" >Helsinki, Finland - 28/5/2014</option>
+          <option value="51" >Stockholm, Sweden - 30/5/2014</option>
+          <option value="52" >Oslo, Norway - 1/6/2014</option>
+          <option value="53" >Horsens, Denmark - 3/6/2014</option>
+          <option value="55" >Hamburg, Germany - 4/6/2014</option>
+          <option value="56" >Nurnberg, Germany - Junio 2014</option>
+          <option value="56" >Nurburgring, Germany - Junio 2014</option>
+          <option value="58" >Rome, Italy -  1/6/2014</option>
+          <option value="59" >Werchter, Belgium - 3/62014</option>
+          <option value="60" >Basel, Switzerland - 4/7/2014</option>
+          <option value="61" >Knebworth, England - 6/7/2014</option>
+          <option value="62" >Prague, Czech Republic - 8/7/2014</option>
+          <option value="63" >Vienna, Austria - 9/7/2014</option>
+          <option value="64" >Warsaw, Poland - 11/7/2014</option>
+        </select>
+      </div>
+
+      <img src="loading.gif" id="loading">
+
+      <div id="list-songs">
+        
+      </div>
+
+    </div>
+    <script type="text/javascript" src="jquery.js"></script>
+    <script src="main.js"></script>
+  </head>
+  <body>
+  </body>
+</html>
