@@ -11,9 +11,6 @@ chrome - metallicaByRequest
 
 Instalacion: 
 Abre Chrome y selecciona  > Herramientas > Extensiones.
-
 Haz clic en Modo de desarrollador > Cargar extensión descomprimida
-
 Desplázate y selecciona la carpeta de la extensión descomprimida
-
 Abre una nueva pestaña en Chrome para ver si tu aplicación se carga y funciona correctamente.
